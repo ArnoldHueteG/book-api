@@ -1,0 +1,48 @@
+
+http://localhost:3000/books/
+
+###
+
+GET  http://localhost:3000/book/
+content-type: application/json
+
+{
+    "id": 2
+}
+
+###
+
+POST http://localhost:3000/book/
+content-type: application/json
+
+{
+    "name": "ccccccc",
+    "author": "arnold huete garcia"
+}
+
+###
+PUT http://localhost:3000/book/
+content-type: application/json
+
+{
+    "id": 6,
+    "name": "xxx",
+    "author": "arnold huete"
+}
+
+###
+DELETE  http://localhost:3000/book/
+content-type: application/json
+
+{
+    "id": 6
+}
+
+###
+GET http://localhost:3000/book/search
+content-type: application/json
+
+{
+    "name": "hola",
+    "author": "qqqq"
+}
